@@ -15870,7 +15870,13 @@ export default function Home() {
               height={103}
             />
             {row.map((cell, idx) => (
-              <ImageCell key={idx} imagePath={cell} />
+              <Image
+              className="image"
+              src={"/Logo-removebg-preview.png"}
+              alt="Next.js Logo"
+              width={103}
+              height={103}
+            />
             ))}
           </div>
           <div className="box">
