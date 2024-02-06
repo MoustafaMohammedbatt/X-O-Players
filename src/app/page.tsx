@@ -18,7 +18,7 @@ const winningCompos = [
 ];
 
 const allColImgs = [
-  
+  ["G03.jpg" , "Valencia-logo.jpg" , "emblem-football-club-lille-france-isolated-white-background-170744706.webp"],
 ["G03.jpg" , "Valencia-logo.jpg" , "Intermilan.jfif"],
 ["G03.jpg" , "Valencia-logo.jpg" , "Juventus.jfif"],
 ["G03.jpg" , "Valencia-logo.jpg" , "Liverpool.jpg"],
@@ -15870,13 +15870,7 @@ export default function Home() {
               height={103}
             />
             {row.map((cell, idx) => (
-              <Image
-              className="image"
-              src={"/Logo-removebg-preview.png"}
-              alt=" Logo"
-              width={103}
-              height={103}
-            />
+              <ImageCell key={idx} imagePath={cell} />
             ))}
           </div>
           <div className="box">
