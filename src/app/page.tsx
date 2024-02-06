@@ -15873,7 +15873,7 @@ export default function Home() {
               <Image
               className="image"
               src={"/Logo-removebg-preview.png"}
-              alt="Next.js Logo"
+              alt=" Logo"
               width={103}
               height={103}
             />
