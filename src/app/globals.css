@@ -1,0 +1,131 @@
+
+
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid .01px #333;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  margin: 10px;
+}
+.navimg{
+  border-radius: 50px;
+}
+body {margin:0;
+background-color: #ededed;}
+
+
+
+.active {
+  background-color: #04AA6D;
+}
+.imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: solid .01px #333;
+  box-sizing: border-box;
+
+}
+.cross{
+  font-size: 80px;
+  font-weight: bold;
+  color: red;
+}
+.circle{
+  font-size: 80px;
+  font-weight: bold;
+  color: blue;
+}
+.message{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  display: inline;
+  
+}
+.HRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+}
+.gameboard{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: solid .5px black;
+}
+.container{
+  display: inline;
+  width: 400px;
+  height: 400px;
+}
+.VCol{
+  display: inline;
+  width: 100px;
+  height: 300px;
+}
+.box{
+  width: 402px;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+}
+.all{
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonclick{
+  background-color:  #333;
+  border: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.buttonclick:hover {
+  background-color: #484848;
+  color: white;
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
