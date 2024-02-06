@@ -18,7 +18,7 @@ const winningCompos = [
 ];
 
 const allColImgs = [
-  ["G03.jpg" , "Valencia-logo.jpg" , "emblem-football-club-lille-france-isolated-white-background-170744706.webp"],
+  
 ["G03.jpg" , "Valencia-logo.jpg" , "Intermilan.jfif"],
 ["G03.jpg" , "Valencia-logo.jpg" , "Juventus.jfif"],
 ["G03.jpg" , "Valencia-logo.jpg" , "Liverpool.jpg"],
