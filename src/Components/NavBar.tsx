@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <ul>
       <li>
-      <Image
+      <img
         className="navimg"
         src={"/Logo.jpg"}
         alt="Next.js Logo"
